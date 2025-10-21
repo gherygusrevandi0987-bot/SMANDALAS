@@ -685,3 +685,64 @@ footer i {
 }
 
 /* ... (sisa kode CSS lainnya) ... */
+/* ... (kode CSS sebelumnya) ... */
+
+/* Gaya Tambahan untuk Modal Pengaturan Tampilan */
+#customizeWebsiteModal .modal-content {
+    max-width: 600px; /* Lebar yang lebih sesuai untuk pengaturan */
+}
+
+#customizeWebsiteModal h3 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: var(--dark-bg);
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#customizeWebsiteModal h3 i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+#customizeWebsiteModal .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Label dan input sejajar kiri */
+}
+
+#customizeWebsiteModal input[type="color"] {
+    width: 100%;
+    max-width: 100px; /* Ukuran yang wajar untuk color picker */
+    height: 40px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#customizeWebsiteModal select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+#customizeWebsiteModal select:focus,
+#customizeWebsiteModal input[type="file"]:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+    outline: none;
+}
+
+/* Tombol-tombol di sekitar about section */
+#about button {
+    margin-right: 10px; /* Jarak antar tombol */
+}
+
+/* ... (sisa kode CSS lainnya) ... */
+
